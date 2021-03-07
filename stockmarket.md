@@ -39,7 +39,7 @@ The stock market is undoubtedly one of the most unpredictable, yet most popular 
 	The stock index NIFTY 100 is specially chosen for this study. NIFTY 100 is a stock index in India’s National Stock Exchange and represents the major sectors of the country’s economy. This index is chosen after careful investigation into the condition of its available dataset. Compared to many other datasets on financial markets, NIFTY 100 stands out by its rather complete and integral structure.
 
     <p align="center"> 
-  <img src="img/teslaback.jpg" alt="teslaback" width=500>
+  <img src="img/report_img/nifty100.png" alt="nifty100" width=500>
   <br>Source from: <a href="https://www.techfinanza.in/top-nifty-100-stocks/">Image Source</a>
 </p>
 
