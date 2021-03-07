@@ -34,27 +34,28 @@ The stock market is undoubtedly one of the most unpredictable, yet most popular 
   <img src="img/pricelabel.png" alt="vol" width=250>
 </p>
 
-## Tesla Stock Data
+## NIFTY 100 Index Data
 <p align = "justify">
-	Tesla's stock market (<i>Ticker: <b>TSLA</b></i>) is hand-picked to be the target of study for this project! The company’s stock market has been traded with high volume, and has been at the center of investor's discussions.
-	<p align="center"> 
+	The stock index NIFTY 100 is specially chosen for this study. NIFTY 100 is a stock index in India’s National Stock Exchange and represents the major sectors of the country’s economy. This index is chosen after careful investigation into the condition of its available dataset. Compared to many other datasets on financial markets, NIFTY 100 stands out by its rather complete and integral structure.
+
+    <p align="center"> 
   <img src="img/teslaback.jpg" alt="teslaback" width=500>
-  <br>Source from: <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fteslanetapp&psig=AOvVaw3yq5p5CD2wGKiF0f8qAkje&ust=1613366359782000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMC20ZvQ6O4CFQAAAAAdAAAAABAJ">Image Source</a>
+  <br>Source from: <a href="https://www.techfinanza.in/top-nifty-100-stocks/">Image Source</a>
 </p>
-	 The following figure shows the closing price of <i>TSLA</i> from 2019-1-30 to 2021-01-15. Judging by the high volatility this time series trend displays, we believe <i>TSLA</i> would be a suitable and interesting subject for study.<br><br>
+
+</p>
+	 Transaction data of NIFTY 100 from January 2, 2017 to January 1, 2021 were obtained. The following figure is a time series representation of the closing price of the data throughout this period. Here, one thing you can easily observe is that the trading has been especially volatile since the coronavirus pandemic in the early 2020. Although the stock price has been increasing throughout those past years, the extreme price drop at the beginning of the pandemic illustrates the uncertainty associated with stock trading and the exceptional difficulty to predict the price movements. <br><br>
 	<p align="center"> 
-	<b>Closing Price of TSLA from 2019-1-30 to 2021-1-15</b><br>
+	<b>Daily Closing Price of NIFTY 100 from 2017-01-02 to 2021-01-01</b><br>
   <img src="img/report_img/raw_data_close.png" alt="raw_data_close" width=600><br>
 </p>
 
-<b><i>In principle, the volatility should be high when there is a large price movement <a href = "towardsdatascience.com/image recognition-vs-other-techniques-in-predicting-the-financial-market-55548d4cda4">(Bai)</a></i></b>. This can be shown via an example (and we take data from January 15th, 2021 for demonstration).
-
-By comparing the original closing price of TSLA on January 15th, 2021 as well as the volatility on these prices during the same period, We can observe that the stock volatility tends to be the highest right after the market open and to be lower during the pre-market session compared to the market hours.
+The focus of our prediction is to explore whether it’s possible to forecast if the index price increases or decreases thorough a day just by looking at the first one hour of trading. The below figure represents the closing price of NIFTY 100 on January 1, 2021. Here, we can observe that the index price ended up net-positive that day. However, inspecting closely, the price decreased during the first hours of trading that day and then the price later rose strongly. Again, this observation too indicates that our prediction task is very difficult for a human without much experience in the market to accurately perform. 
 <p align="center"> 
-	<b>Closing Price of TSLA on 2021-01-15</b><br>
+	<b> Minute-level Closing Price of NIFTY 100 on 2021-01-01 - Full Market Hours</b><br>
   <img src="img/report_img/tsla_all_20210115_close.png" alt="20210115_close" width=600><br>
-	<b>Price Volatility of TSLA on 2021-01-15</b><br>
+	<b>Minute-level Closing Price of NIFTY 100 on 2021-01-01 – First Market Hour.</b><br>
   <img src="img/report_img/tsla_all_20210115_vol.png" alt="20210115_vol" width=600><br>
 </p>
-This project's prediction task therefore builds upon this observation and the understanding that <i>pre-market stock volatility might be a helpful indicator for market behaviors after market open</i>. We then demonstrate this via research into modelling these stock volatilities with CNN recognition.
+This project's prediction task therefore builds upon this observation and the understanding that <i>the first hour of index price movement might be a helpful indicator for market behaviors of the day</i>. We then demonstrate this via research into modelling these stock prices with CNN recognition.
 </p>
