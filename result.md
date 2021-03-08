@@ -36,14 +36,15 @@ Results shown below are made available by leveraging third-party Grad-CAM API in
 
 <b>Visual Explanation from Various Algorithms</b><br>
 
-| Predicted Class = 1 | GAF Image: 2017-01-03 | GAF Image: 2021-01-01 |
-| --- | --- | --- |
-| Original Image | <img src="img/test_imgs/2017-01-03.png" alt="test1" width=250> | <img src="img/test_imgs/2021-01-01.png" alt="test2" width=250> |
-| Grad-CAM | <img src="img/class1_layer4_2017-01-03/0-resnet34-gradcam-layer4-oscilloscope.png" alt="test11" width=250> | <img src="img/class1_layer4_2021-01-01/0-resnet34-gradcam-layer4-digital_clock.png" alt="test21" width=250> |
-| Vanilla Backpropagation | <img src="img/class1_layer4_2017-01-03/0-resnet34-vanilla-oscilloscope.png" alt="test12" width=250> | <img src="img/class1_layer4_2021-01-01/0-resnet34-vanilla-digital_clock.png" alt="test22" width=250> |
-| DeconvNet | <img src="img/class1_layer4_2017-01-03/0-resnet34-deconvnet-oscilloscope.png" alt="test13" width=250> | <img src="img/class1_layer4_2021-01-01/0-resnet34-deconvnet-digital_clock.png" alt="test23" width=250> |
-| Guided Backpropagation | <img src="img/class1_layer4_2017-01-03/0-resnet34-guided-oscilloscope.png" alt="test14" width=250> | <img src="img/class1_layer4_2021-01-01/0-resnet34-guided-digital_clock.png" alt="test24" width=250> |
-| Guided Grad-CAM | <img src="img/class1_layer4_2017-01-03/0-resnet34-guided_gradcam-layer4-oscilloscope.png" alt="test15" width=250> | <img src="img/class1_layer4_2021-01-01/0-resnet34-guided_gradcam-layer4-digital_clock.png" alt="test25" width=250> |
+The following have Predicted Class = 1, and are each of GAF images from 2017-01-03 and 2021-01-01
+
+<img src="img/a/e.png" width=700><br>
+<img src="img/a/m.png" width=700><br>
+<img src="img/a/s.png" width=700><br>
+<img src="img/a/d.png" width=700><br>
+<img src="img/a/c.png" width=700><br>
+<img src="img/a/b.png" width=700><br>
+<img src="img/a/a.png" width=700><br>
 
 <p align='justify'>
 Brief description of each visual explanation:
