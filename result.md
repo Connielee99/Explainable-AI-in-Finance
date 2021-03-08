@@ -39,7 +39,7 @@ Results shown below are made available by leveraging third-party Grad-CAM API in
 
 <b>Visual Explanation from Various Algorithms</b><br>
 
-The following have Predicted Class = 1, and are each of GAF images from 2017-01-03 and 2021-01-01
+The following have Predicted Class = 1, and are each of GAF images on 2017-01-03 and 2021-01-01
 
 <img src="img/a/e.png" width=700><br>
 <img src="img/a/m.png" width=700><br>
