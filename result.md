@@ -47,7 +47,7 @@ The following have Predicted Class = 1, and are each of GAF images from 2017-01-
 <img src="img/a/a.png" width=700><br>
 
 <p align='justify'>
-Brief description of each visual explanation (Definitions from <a href=https://glassboxmedicine.com/2019/06/21/cnn-heat-maps-saliency-backpropagation>):
+Brief description of each visual explanation (Definitions from <a href=https://glassboxmedicine.com/2019/06/21/cnn-heat-maps-saliency-backpropagation>Source</a>):
 - Grad-CAM – “uses the class-specific gradient information flowing into the final convolutional layer of a CNN to produce a coarse localization map of the important regions in the image” (Selvaraju et al.).
 - Vanilla Backpropagation – or Gradients, “commonly referred to as saliency maps’ or ‘backpropagation” (Draelos). It is a “visualization of an image in which the most salient/most important pixels are highlighted” (Draelos).
 - DeconvNets – “DeconvNets are the same as the “Gradients” approach except for a difference in backpropagation through the ReLU nonlinearity” (Draelos).
