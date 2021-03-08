@@ -28,7 +28,3 @@
 		<b>Polar Coordinate Representation of Price Volatility on 2021-01-01</b><br><br><img src = "img/x.png" alt="gdfarray" width=600><br><br>
 		<b>Gramian Angular Field Image Representation of Price Volatility on 2021-01-01</b><br><br><img src = "img/test_imgs/2021-01-01.png" alt="gdf"><br></p></p>
 
-## Interested in reading more? 
-Please review our **Report**(add link to report later) for more detailed mathematical explanations!
-
-	
