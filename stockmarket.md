@@ -44,13 +44,15 @@ The stock market is undoubtedly one of the most unpredictable, yet most popular 
 </p>
 
 <p>
-Transaction data of NIFTY 100 from January 2, 2017 to January 1, 2021 were obtained. The following figure is a time series representation of the closing price of the data throughout this period. Here, one thing you can easily observe is that the trading has been especially volatile since the coronavirus pandemic in the early 2020. Although the stock price has been increasing throughout those past years, the extreme price drop at the beginning of the pandemic illustrates the uncertainty associated with stock trading and the exceptional difficulty to predict the price movements. <br><br>
+Transaction data of NIFTY 100 from January 2, 2017 to January 1, 2021 were obtained. Figure 3 is a time series representation of the closing price of the data throughout this period. Here, one interesting insight observed is how trading has been especially volatile since the coronavirus pandemic in the early 2020. Although the stock price has been increasing throughout those past years, the extreme price drop at the beginning of the pandemic illustrates the uncertainty associated with stock trading and the exceptional difficulty to predicting price movements.
+ <br><br>
 	<p align="center"> 
 	<b>Daily Closing Price of NIFTY 100 from 2017-01-02 to 2021-01-01</b><br>
   <img src="img/report_img/nifty100_3years_closing.png" alt="raw_data_close" width=600><br>
 </p>
 
-The focus of our prediction is to explore whether it’s possible to forecast if the index price increases or decreases thorough a day just by looking at the first one hour of trading. The below figure represents the closing price of NIFTY 100 on January 1, 2021. Here, we can observe that the index price ended up net-positive that day. However, inspecting closely, the price decreased during the first hours of trading that day and then the price later rose strongly. Again, this observation too indicates that our prediction task is very difficult for a human without much experience in the market to accurately perform. 
+The focus of our prediction is to explore whether it is possible to forecast if an index price increases or decreases thorough a day just by looking at the “first one hour of trading”. As an example, the below Figure 4 represents the closing price of NIFTY 100 on January 1, 2021. Here, we observe that the index price ended up Net-Positive that day. However, inspecting closely, the price decreased during the first hours of trading and then rose strongly later that day. Again, this observation too indicates that our prediction task is very difficult for a human without much experience in the market to accurately perform.<br>
+
 <p align="center"> 
 	<b> Minute-level Closing Price of NIFTY 100 on 2021-01-01 - Full Market Hours</b><br>
   <img src="img/report_img/nifty100_20210101_closing.png" alt="20210101_full" width=600><br>
