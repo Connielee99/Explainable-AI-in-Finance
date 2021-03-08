@@ -25,8 +25,8 @@
 	Gramian Angular Field is an image obtained by transforming time series data. In GAF, <b><i>time series is represented in a polar coordinate system by taking advantage of the Gram Matrix <a href="https://arxiv.org/abs/1506.00327">(Oates and Zhiguang)</a></i></b> . Specifically, the Gram Matrix has a key advantage of preserving the temporal dependency -- <b><i>Since time increases as the position moves from top-left to bottom-right, the time dimension is encoded into the geometry of the matrix <a href="https://medium.com/analytics-vidhya/encoding-time-series-as-images-b043becbdbf3">(Vitry)</a></i></b>.<br>
 	For demonstration, we continue with the example shown in <a href = "https://connielee99.github.io/Explainable-AI-in-Finance/stockmarket">Stock Market</a>, and display the transformed coordinate data by Gramian Angular Field from stock volatility on January 1st, 2021 as well as the actual image used for modeling converted from these polar coordinates.<br>
 	<p align="center">
-		<b>Polar Coordinate Representation of Price Volatility on 2021-01-15</b><br><br><img src = "img/x.png" alt="gdfarray" width=600><br><br>
-		<b>Gramian Angular Field Image Representation of Price Volatility on 2021-01-15</b><br><br><img src = "img/test_imgs/2021-01-01.png" alt="gdf"><br></p></p>
+		<b>Polar Coordinate Representation of Price Volatility on 2021-01-01</b><br><br><img src = "img/x.png" alt="gdfarray" width=600><br><br>
+		<b>Gramian Angular Field Image Representation of Price Volatility on 2021-01-01</b><br><br><img src = "img/test_imgs/2021-01-01.png" alt="gdf"><br></p></p>
 
 ## Interested in reading more? 
 Please review our **Report**(add link to report later) for more detailed mathematical explanations!
