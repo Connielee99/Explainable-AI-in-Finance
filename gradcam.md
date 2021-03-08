@@ -16,4 +16,8 @@
   <br>Published by: <a href="https://arxiv.org/abs/1610.02391">Ramprasaath R. Selvaraju, et.al.,</a>
 </p>
 
-<p align="center">GAF Image: 2017-01-03            GAF Image: 2021-01-01</p>
+<p align="center"><b>GAF Image: 2017-01-03                                             GAF Image: 2021-01-01</b><br>
+<img src="img/test_imgs/2017-01-03.png" alt="test1" width=250>
+	<img src="img/test_imgs/2021-01-01.png" alt="test2" width=250>
+
+</p>
