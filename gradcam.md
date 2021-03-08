@@ -15,7 +15,8 @@
   <img src="img/gradcamalg.png" alt="gradcamalg">
   <br>Published by: <a href="https://arxiv.org/abs/1610.02391">Ramprasaath R. Selvaraju, et.al.,</a>
 </p>
-| GAF Image: 2017-01-03 | GAF Image: 2021-01-01 |
-| --- | --- |
-| <img src="img/test_imgs/2017-01-03.png" alt="test1" width=250> | <img src="img/test_imgs/2021-01-01.png" alt="test2" width=250> |
-| git diff | Show file differences that haven't been staged |
+
+| Predicted Class = 1 | GAF Image: 2017-01-03 | GAF Image: 2021-01-01 |
+| --- | --- | --- |
+| Original Image | <img src="img/test_imgs/2017-01-03.png" alt="test1" width=250> | <img src="img/test_imgs/2021-01-01.png" alt="test2" width=250> |
+| Grad-CAM | git diff | Show file differences that haven't been staged |
