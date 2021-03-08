@@ -15,7 +15,8 @@ After the training procedure described above, the CNN model constantly achieves 
 
 <p align="center">
     <img src="img/report_img/confusion_matrix.png" alt="layers arch" width=400>
-    <br>The Confusion Matrix of the Final Model
+    <br>
+	The Confusion Matrix of the Final Model
 	</p>
 
 The figure below are some sample instances from the validation results. Again, the class “1” means the index price went up that given day and the class “0” indicates the opposite.
@@ -25,6 +26,7 @@ The figure below are some sample instances from the validation results. Again, t
     <br>Prediction Results for Some Instance in Validation Set
 	
 </p>
+
 
 ## Grad CAM Results
 
